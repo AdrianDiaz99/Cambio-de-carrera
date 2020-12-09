@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="1006.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cambiodecarera.FXMLDocumentPrincipalController">
+  <tabs>
+    <Tab text="Estudiante">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="57.0" layoutY="47.0" text="Matricula" />
+                  <Label layoutX="61.0" layoutY="86.0" text="Nombre" />
+                  <Label layoutX="64.0" layoutY="126.0" text="Carrera" />
+                  <Label layoutX="58.0" layoutY="167.0" text="Semestre" />
+                  <Label layoutX="57.0" layoutY="210.0" text="Promedio" />
+                  <Label layoutX="54.0" layoutY="256.0" text="Institucion" />
+                  <TextField disable="true" layoutX="135.0" layoutY="42.0" />
+                  <TextField disable="true" layoutX="135.0" layoutY="81.0" />
+                  <TextField disable="true" layoutX="135.0" layoutY="121.0" />
+                  <TextField disable="true" layoutX="135.0" layoutY="162.0" />
+                  <TextField disable="true" layoutX="135.0" layoutY="205.0" />
+                  <TextField disable="true" layoutX="135.0" layoutY="251.0" />
+                  <ImageView fitHeight="236.0" fitWidth="249.0" layoutX="580.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../tec.PNG" />
+                     </image>
+                  </ImageView>
+                  <TableView layoutX="104.0" layoutY="364.0" prefHeight="167.0" prefWidth="618.0">
+                    <columns>
+                      <TableColumn prefWidth="198.0" text="Folio" />
+                      <TableColumn prefWidth="210.0" text="Carrera Solicitada" />
+                        <TableColumn prefWidth="209.0" text="Estatus" />
+                    </columns>
+                  </TableView>
+                  <Button layoutX="808.0" layoutY="374.0" mnemonicParsing="false" onAction="#evtBtnConsultar" text="Consultar" />
+                  <Button layoutX="811.0" layoutY="432.0" mnemonicParsing="false" onAction="#evtBtnCancelar" text="Cancelar" />
+                  <Button layoutX="768.0" layoutY="490.0" mnemonicParsing="false" onAction="#evtBtnNvaSol" text="Iniciar nueva solicitud" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Coordinador">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+      <Tab text="Jefe Div. Estudios">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+      <Tab text="Academia">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+      <Tab text="Desarollo Academico">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+      <Tab text="Servicios Escolares">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+      <Tab text="Cuenta">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="279.0" layoutY="114.0" text="Usuario" />
+                  <Label layoutX="267.0" layoutY="167.0" />
+                  <TextField layoutX="354.0" layoutY="109.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

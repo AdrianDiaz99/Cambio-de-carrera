@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="cambiodecarera.FXMLDocumentController">
+    <children>
+      <TextField layoutX="110.0" layoutY="27.0" />
+      <Label layoutX="40.0" layoutY="32.0" text="Usuario" />
+      <Label layoutX="28.0" layoutY="79.0" text="Contraseña" />
+      <Button layoutX="199.0" layoutY="146.0" mnemonicParsing="false" onAction="#actionBtnIniciarSesion" text="Iniciar Sesion" />
+      <Button layoutX="14.0" layoutY="146.0" mnemonicParsing="false" onAction="#actionBtnRecuperarPass" text="Recuperar Contraseña" />
+      <PasswordField layoutX="110.0" layoutY="74.0" />
+    </children>
+</AnchorPane>
